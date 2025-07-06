@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishcovery - AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<section id="Navbar">
+    <header class="main-navbar">
+        <div class="container d-flex flex-wrap justify-content-center py-3 border-bottom">
+            <a href="index.html#Hero" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="./images/Logo2.png" class="mx-2" height="30px" alt="Logo">
+                <span class="fs-4 brand-name">Dishcovery</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#Hero" class="nav-link custom-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#Features" class="nav-link custom-link">Features</a></li>
+                <li class="nav-item"><a href="#Pricing" class="nav-link custom-link">Pricing</a></li>
+                <li class="nav-item"><a href="whats-next.html" class="nav-link custom-link">What's Next</a></li>
+            </ul>
+        </div>
+    </header>
+</section>
+
+<section id="Hero">
+    <div class="gradient">
+        <div class="container col-xxl-8 px-4 py-5">     
+            <div class="row flex-lg-row-reverse align-items-center g-5"> 
+                <div class="col-10 col-sm-8 col-lg-6"> 
+                    <img src="./images/previewed.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200px" width="400px" loading="lazy"> 
+                </div> 
+                    <div class="col-lg-6"> 
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Discover Every Dish</h1> 
+                        <p class="lead">Upload a photo of your meal - our app will help you identify what it is! Optionally, write the dish name if you know it. Perfect for foodies, travelers, and curious cooks.🍽️</p>
+                        <p class="under-lead" style="color: #ea580c;">&#10024; Save your favorite dishes to your personal collection!</p> 
+
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+                                <button type="button" class="btn btn-custom btn-lg px-4 d-flex align-items-center gap-2 btn-outline-secondary me-md-2">
+                                    <img src="./svg/apple-white.svg" height="20px" alt="app store logo">
+                                    <span>App Store</span>  
+                                </button> 
+
+                                <button type="button" class="btn btn-custom d-flex align-items-center gap-2 btn-outline-secondary btn-lg px-4">
+                                    <img src="./svg/play-store-white.svg" height="25px" alt="play store logo">
+                                    <span>Play Store</span>
+                                </button> 
+                            </div> 
+                    </div> 
+            </div> 
+        </div>
+    </div>
+</section>
+
+<section id="Features">
+    <div class="container px-4 py-5" id="icon-grid"> 
+        <h2 class="pb-2">Why Choose Dishcovery?</h2>
+        <p class="border-bottom">Our AI-powered platform makes food discovery simple, accurate and enjoyable</p>
+        
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 py-5">
+
+        <div class="col"> 
+            <div class="feature-box"> 
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M12 16C13.6569 16 15 14.6569 15 13C15 11.3431 13.6569 10 12 10C10.3431 10 9 11.3431 9 13C9 14.6569 10.3431 16 12 16Z" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 16.8V9.2C3 8.0799 3 7.51984 3.21799 7.09202C3.40973 6.71569 3.71569 6.40973 4.09202 6.21799C4.51984 6 5.0799 6 6.2 6H7.25464C7.37758 6 7.43905 6 7.49576 5.9935C7.79166 5.95961 8.05705 5.79559 8.21969 5.54609C8.25086 5.49827 8.27836 5.44328 8.33333 5.33333C8.44329 5.11342 8.49827 5.00346 8.56062 4.90782C8.8859 4.40882 9.41668 4.08078 10.0085 4.01299C10.1219 4 10.2448 4 10.4907 4H13.5093C13.7552 4 13.8781 4 13.9915 4.01299C14.5833 4.08078 15.1141 4.40882 15.4394 4.90782C15.5017 5.00345 15.5567 5.11345 15.6667 5.33333C15.7216 5.44329 15.7491 5.49827 15.7803 5.54609C15.943 5.79559 16.2083 5.95961 16.5042 5.9935C16.561 6 16.6224 6 16.7454 6H17.8C18.9201 6 19.4802 6 19.908 6.21799C20.2843 6.40973 20.5903 6.71569 20.782 7.09202C21 7.51984 21 8.0799 21 9.2V16.8C21 17.9201 21 18.4802 20.782 18.908C20.5903 19.2843 20.2843 19.5903 19.908 19.782C19.4802 20 18.9201 20 17.8 20H6.2C5.0799 20 4.51984 20 4.09202 19.782C3.71569 19.5903 3.40973 19.2843 3.21799 18.908C3 18.4802 3 17.9201 3 16.8Z" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                </svg> 
+                    <div> 
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">AI-powered Recognition</h3> 
+                      <p>Upload a photo and let our advanced Al identify your dish with high accuracy</p> 
+                    </div> 
+            </div> 
+        </div>
+
+        <div class="col">
+            <div class="feature-box"> 
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M22 12C22 13.3132 21.7413 14.6136 21.2388 15.8268C20.7362 17.0401 19.9997 18.1425 19.0711 19.0711C18.1425 19.9997 17.0401 20.7362 15.8268 21.2388C14.6136 21.7413 13.3132 22 12 22C10.6868 22 9.38642 21.7413 8.17317 21.2388C6.95991 20.7362 5.85752 19.9997 4.92893 19.0711C4.00035 18.1425 3.26375 17.0401 2.7612 15.8268C2.25866 14.6136 2 13.3132 2 12C2 10.6868 2.25866 9.38642 2.76121 8.17316C3.26375 6.95991 4.00035 5.85752 4.92893 4.92893C5.85752 4.00035 6.95991 3.26375 8.17317 2.7612C9.38642 2.25866 10.6868 2 12 2C13.3132 2 14.6136 2.25866 15.8268 2.76121C17.0401 3.26375 18.1425 4.00035 19.0711 4.92893C19.9997 5.85752 20.7362 6.95991 21.2388 8.17317C21.7413 9.38642 22 10.6868 22 12L22 12Z" stroke="#ea580c" stroke-width="1.5"/> <path d="M16 12C16 13.3132 15.8965 14.6136 15.6955 15.8268C15.4945 17.0401 15.1999 18.1425 14.8284 19.0711C14.457 19.9997 14.016 20.7362 13.5307 21.2388C13.0454 21.7413 12.5253 22 12 22C11.4747 22 10.9546 21.7413 10.4693 21.2388C9.98396 20.7362 9.54301 19.9997 9.17157 19.0711C8.80014 18.1425 8.5055 17.0401 8.30448 15.8268C8.10346 14.6136 8 13.3132 8 12C8 10.6868 8.10346 9.38642 8.30448 8.17316C8.5055 6.95991 8.80014 5.85752 9.17157 4.92893C9.54301 4.00035 9.98396 3.26375 10.4693 2.7612C10.9546 2.25866 11.4747 2 12 2C12.5253 2 13.0454 2.25866 13.5307 2.76121C14.016 3.26375 14.457 4.00035 14.8284 4.92893C15.1999 5.85752 15.4945 6.95991 15.6955 8.17317C15.8965 9.38642 16 10.6868 16 12L16 12Z" stroke="#ea580c" stroke-width="1.5"/> <path d="M2 12H22" stroke="#ea580c" stroke-width="1.5" stroke-linecap="round"/> </g>
+                </svg>
+                <div> 
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Global Cuisines</h3> 
+                    <p>Discover dishes from around the world with detailed cultural context</p> 
+                </div> 
+            </div> 
+        </div>
+
+        <div class="col">
+            <div class="feature-box"> 
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.261 1.03462C12.6971 1.15253 13 1.54819 13 1.99997V8.99997H19C19.3581 8.99997 19.6888 9.19141 19.8671 9.50191C20.0455 9.8124 20.0442 10.1945 19.8638 10.5038L12.8638 22.5038C12.6361 22.8941 12.1751 23.0832 11.739 22.9653C11.3029 22.8474 11 22.4517 11 22V15H5C4.64193 15 4.3112 14.8085 4.13286 14.498C3.95452 14.1875 3.9558 13.8054 4.13622 13.4961L11.1362 1.4961C11.3639 1.10586 11.8249 0.916719 12.261 1.03462ZM6.74104 13H12C12.5523 13 13 13.4477 13 14V18.301L17.259 11H12C11.4477 11 11 10.5523 11 9.99997V5.69889L6.74104 13Z" fill="#ea580c"/> </g>
+                </svg>
+                <div> 
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Instant Results</h3> 
+                    <p>Get detailed information about ingredients, preparation methods, and more</p> 
+                </div> 
+            </div> 
+        </div>
+
+        <div class="col">
+            <div class="feature-box premium"> 
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M12 10.4V20M12 10.4C12 8.15979 12 7.03969 11.564 6.18404C11.1805 5.43139 10.5686 4.81947 9.81596 4.43597C8.96031 4 7.84021 4 5.6 4H4.6C4.03995 4 3.75992 4 3.54601 4.10899C3.35785 4.20487 3.20487 4.35785 3.10899 4.54601C3 4.75992 3 5.03995 3 5.6V16.4C3 16.9601 3 17.2401 3.10899 17.454C3.20487 17.6422 3.35785 17.7951 3.54601 17.891C3.75992 18 4.03995 18 4.6 18H7.54668C8.08687 18 8.35696 18 8.61814 18.0466C8.84995 18.0879 9.0761 18.1563 9.29191 18.2506C9.53504 18.3567 9.75977 18.5065 10.2092 18.8062L12 20M12 10.4C12 8.15979 12 7.03969 12.436 6.18404C12.8195 5.43139 13.4314 4.81947 14.184 4.43597C15.0397 4 16.1598 4 18.4 4H19.4C19.9601 4 20.2401 4 20.454 4.10899C20.6422 4.20487 20.7951 4.35785 20.891 4.54601C21 4.75992 21 5.03995 21 5.6V16.4C21 16.9601 21 17.2401 20.891 17.454C20.7951 17.6422 20.6422 17.7951 20.454 17.891C20.2401 18 19.9601 18 19.4 18H16.4533C15.9131 18 15.643 18 15.3819 18.0466C15.15 18.0879 14.9239 18.1563 14.7081 18.2506C14.465 18.3567 14.2402 18.5065 13.7908 18.8062L12 20" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                </svg> 
+                <div> 
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                        Personal Collection
+                        <span class="badge premium-badge">Premium</span>
+                    </h3> 
+                    <p>Save your favorite dishes and build your personal culinary collection</p> 
+                </div> 
+            </div>
+        </div> 
+
+        <div class="col">
+            <div class="feature-box premium"> 
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M22 21V19C22 17.1362 20.7252 15.5701 19 15.126M15.5 3.29076C16.9659 3.88415 18 5.32131 18 7C18 8.67869 16.9659 10.1159 15.5 10.7092M17 21C17 19.1362 17 18.2044 16.6955 17.4693C16.2895 16.4892 15.5108 15.7105 14.5307 15.3045C13.7956 15 12.8638 15 11 15H8C6.13623 15 5.20435 15 4.46927 15.3045C3.48915 15.7105 2.71046 16.4892 2.30448 17.4693C2 18.2044 2 19.1362 2 21M13.5 7C13.5 9.20914 11.7091 11 9.5 11C7.29086 11 5.5 9.20914 5.5 7C5.5 4.79086 7.29086 3 9.5 3C11.7091 3 13.5 4.79086 13.5 7Z" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                </svg> 
+                <div> 
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                        Advanced Analysis
+                        <span class="badge premium-badge">Premium</span>
+                    </h3> 
+                    <p>Get detailed nutritional info, allergen warnings, and cooking techniques</p> 
+                </div> 
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="feature-box premium"> 
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M11.245 4.174C11.4765 3.50808 11.5922 3.17513 11.7634 3.08285C11.9115 3.00298 12.0898 3.00298 12.238 3.08285C12.4091 3.17513 12.5248 3.50808 12.7563 4.174L14.2866 8.57639C14.3525 8.76592 14.3854 8.86068 14.4448 8.93125C14.4972 8.99359 14.5641 9.04218 14.6396 9.07278C14.725 9.10743 14.8253 9.10947 15.0259 9.11356L19.6857 9.20852C20.3906 9.22288 20.743 9.23007 20.8837 9.36432C21.0054 9.48051 21.0605 9.65014 21.0303 9.81569C20.9955 10.007 20.7146 10.2199 20.1528 10.6459L16.4387 13.4616C16.2788 13.5829 16.1989 13.6435 16.1501 13.7217C16.107 13.7909 16.0815 13.8695 16.0757 13.9507C16.0692 14.0427 16.0982 14.1387 16.1563 14.3308L17.506 18.7919C17.7101 19.4667 17.8122 19.8041 17.728 19.9793C17.6551 20.131 17.5108 20.2358 17.344 20.2583C17.1513 20.2842 16.862 20.0829 16.2833 19.6802L12.4576 17.0181C12.2929 16.9035 12.2106 16.8462 12.1211 16.8239C12.042 16.8043 11.9593 16.8043 11.8803 16.8239C11.7908 16.8462 11.7084 16.9035 11.5437 17.0181L7.71805 19.6802C7.13937 20.0829 6.85003 20.2842 6.65733 20.2583C6.49056 20.2358 6.34626 20.131 6.27337 19.9793C6.18915 19.8041 6.29123 19.4667 6.49538 18.7919L7.84503 14.3308C7.90313 14.1387 7.93218 14.0427 7.92564 13.9507C7.91986 13.8695 7.89432 13.7909 7.85123 13.7217C7.80246 13.6435 7.72251 13.5829 7.56262 13.4616L3.84858 10.6459C3.28678 10.2199 3.00588 10.007 2.97101 9.81569C2.94082 9.65014 2.99594 9.48051 3.11767 9.36432C3.25831 9.23007 3.61074 9.22289 4.31559 9.20852L8.9754 9.11356C9.176 9.10947 9.27631 9.10743 9.36177 9.07278C9.43726 9.04218 9.50414 8.99359 9.55657 8.93125C9.61593 8.86068 9.64887 8.76592 9.71475 8.57639L11.245 4.174Z" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                </svg> 
+                <div> 
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                        Priority Support
+                        <span class="badge premium-badge">Premium</span>
+                    </h3> 
+                    <p>Get priority customer support and access to beta features</p> 
+                </div> 
+            </div> 
+        </div>
+        
+     </div> 
+    </div> 
+</section>
+
+<section id="Testimonials">
+    <div class="container mb-5">
+        <h2 class="border-bottom pb-2">What Food Lovers Say</h2>
+        
+        <div class="px-4 py-5 mt-5 text-center testimonials-card"> 
+            <div class="col-lg-6 mx-auto"> 
+                <p class="lead mb-4">"Dishcovery helped me identify an amazing pasta dish I had in Italy. Now I can recreate it at home with the detailed ingredient list and cooking instructions!"</p>             
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center gap-3 mt-3">
+                <img class="user-photo rounded-circle" src="./images/userPhoto.png" alt="userPhoto" height="64" width="64">
+                <div class="text-start">
+                    <h5 class="mb-0 fw-semibold">Sarah, Food Blogger</h5>
+                    <small class="text-muted">#Dishcovery-AI</small>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <div class="d-flex justify-content-center flex-wrap gap-4">
+                <span class="fw-semibold text-grey">Food & Wine</span>
+                <span class="fw-semibold text-dark">Bon Appétit</span>
+                <span class="fw-semibold text-dark">Eater</span>
+                <span class="fw-semibold text-dark">Featured in</span>
+            </div>
+        </div>   
+    </div>
+</section>
+
+<section id="Pricing">
+  <div class="container">
+    <h2>Unlock Premium Features</h2>
+    <p class="border-bottom pb-2 mb-4">
+      Get unlimited access to advanced features and priority support
+    </p>
+
+    <div class="row justify-content-center mb-3 text-center">
+      
+      <div class="col-md-4">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Free Plan</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0 <small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+                <li>&#10004; 10 dish identifications / month</li>
+                <li>&#10004; Access to global dish database</li>
+                <li>&#10004; Cultural background on dishes</li>
+                <li>&#10004; Save up to 3 dishes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 rounded-3 shadow-sm pro-card position-relative">
+            <div>            
+            <span class="badge most-popular">Most Popular</span>
+            </div>
+            <svg class="crown-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                <g id="SVGRepo_iconCarrier"> <path stroke="#ea580c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 18h14M5 14h14l1-9-4 3-4-5-4 5-4-3 1 9Z"/> </g>
+            </svg>
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal position-relative gourmet-heading">
+                <img src="./svg/lightning.svg" height="24px" alt="lightning-icon">
+                Gourmet
+            </h4>
+          </div> 
+         
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$9.99 <small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4 feature-list">
+               <li>&#10004; Unlimited dish identifications</li>
+                <li>&#10004; Save unlimited dishes to your collection</li>
+                <li>&#10004; Detailed nutritional insights</li>
+                <li>&#10004; Advanced ingredient analysis (AI-powered)</li>
+                <li>&#10004; Completely Ad-Free experience</li>
+                <li>&#10004; Priority customer support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="Footer">   
+    <div class="gradient">
+    <div class="container"> 
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 border-top"> 
+            <div class="col mb-3"> 
+                <a href="" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap"> 
+                    <img src="./images/Logo2.png" height="50px" alt="Footer-logo">
+                        <h3 class="mx-2">Dishcovery</h3>
+                </a> 
+                <p>Al-powered food identification for curious food lovers everywhere.</p>
+                <p class="text-body-secondary">© 2025 Dishcovery. All rights reserved</p> 
+            </div> 
+
+            <div class="col mb-3">
+            </div> 
+
+            <div class="col mb-3"> 
+                <h5>Product</h5> 
+                <ul class="nav flex-column"> 
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                    </li> 
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+                    </li> 
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                    </li>  
+                </ul> 
+            </div> 
+
+            <div class="col mb-3"> 
+                <h5>Company</h5> 
+                <ul class="nav flex-column"> 
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                    </li> 
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
+                    </li> 
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Privacy</a>
+                    </li>  
+                </ul> 
+            </div> 
+
+            <div class="col mb-3"> 
+                <h5>Support</h5> 
+                <ul class="nav flex-column"> 
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Help Center</a>
+                    </li> 
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">Community</a>
+                        </li>
+                         <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">API Docs</a>
+                        </li>  
+                </ul> 
+            </div> 
+        </footer> 
+    </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+</body>
+</html>

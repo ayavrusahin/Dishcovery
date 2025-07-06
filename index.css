@@ -1,0 +1,178 @@
+html{
+  scroll-behavior: smooth;
+}
+
+:root {
+  --navbar-bg: #ffffff; /* Temaya göre değiştirilebilir */
+  --navbar-text: #333;
+  --navbar-shadow: rgba(0, 0, 0, 0.05);
+}
+
+.nav a.active {
+  color: #ea580c !important;  /* istediğin turuncu renk */
+  text-decoration: underline; /* altını çiz */
+  background-color: transparent !important; /* mavi kutuyu engelle */
+  border: none !important;
+  box-shadow: none !important;
+}
+
+section:not(#Navbar) {
+  min-height: 300px; /* içeriği az olan section'lar için yeterli */
+}
+
+/* Sabit ve tema uyumlu navbar */
+.main-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+  z-index: 999;
+  box-shadow: 0 2px 4px var(--navbar-shadow);
+}
+
+/* İçeriği kapatmaması için body'ye padding-top */
+body {
+  padding-top: 80px; /* Navbar yüksekliğine göre ayarla */
+}
+
+.custom-link {
+  color: #1e293b !important; /* slate-800 gibi bir koyu gri */
+  font-weight: 500;
+}
+.custom-link:hover {
+  color: #ea580c !important; /* turuncu hover */
+}
+
+h1{
+  color: #ea580c;
+}
+
+.gradient{
+  background: radial-gradient(circle,#fff7ed, #ffedd5, #fed7aa);
+}
+
+
+.feature-box {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  gap: 1rem;
+  height: 100%;
+  transition: box-shadow 0.2s ease;
+}
+
+.brand-name{
+  font-size: 24px;
+  font-weight: bold; 
+}
+
+.premium {
+  background-color: #fff7ed; /* turuncuya yakın yumuşak bir ton */
+  border-color: #fdba74;     /* açık turuncu */
+}
+
+.premium-badge {
+  background-color: #ea580c;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.most-popular{
+  display: inline-block;
+  margin-top: 6px;
+  background: #facc15;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+.feature-box:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.testimonials-card{
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  gap: 1rem;
+  height: 100%;
+  transition: box-shadow 0.2s ease;
+}
+
+.card{
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+
+.card-header{
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.pro-card {
+  background-color: #fff7ed; /* Açık turuncumsu arka plan */
+  border: 2px solid #ea580c; /* Çerçeve rengi */
+}
+
+.pro-card .crown-icon{
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 60%;
+  padding: 4px;
+  box-shadow: 0, 2px, 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.user-photo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.btn-custom{
+  background-color: #ea580c;
+  color: white;
+  border: none;
+}
+svg{
+  height: 36px;
+  width: 36px;
+  margin-bottom: 15px;
+}
+
+.roadmap-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+}
+
+.roadmap-list li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.roadmap-list li::before {
+  content: "✔";
+  color: #22c55e;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
